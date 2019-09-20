@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     20/09/2019 15:01:36                          */
+/* Created on:     20/09/2019 17:51:30                          */
 /*==============================================================*/
 
 
@@ -19,8 +19,8 @@ drop table if exists RAM;
 /*==============================================================*/
 create table CATEGORIA
 (
-   CAT_ID               text not null,
-   CAT_NOMBRE           text not null,
+   CAT_ID               char(6) not null,
+   CAT_NOMBRE           char(15) not null,
    primary key (CAT_ID)
 );
 
@@ -29,12 +29,12 @@ create table CATEGORIA
 /*==============================================================*/
 create table CPU
 (
-   CPU_ID               text not null,
-   CAT_ID               text,
-   CPU_CLOCKSPEED       decimal,
-   CPU_TURBOCLOCKSPEED  decimal,
-   CPU_CORES            numeric(8,0),
-   CPU_SOCKET           text,
+   CPU_ID               char(6) not null,
+   CAT_ID               char(6),
+   CPU_CLOCKSPEED       decimal not null,
+   CPU_TURBOCLOCKSPEED  decimal not null,
+   CPU_CORES            numeric(8,0) not null,
+   CPU_SOCKET           char(15) not null,
    primary key (CPU_ID)
 );
 
@@ -43,14 +43,14 @@ create table CPU
 /*==============================================================*/
 create table DISCOS
 (
-   ID_CPU3              text not null,
-   CAT_ID               text,
-   DISCOS_FORMA         text,
-   DISCOS_INTERFAZ      text,
-   DISCOS_CAPACIDAD     decimal,
-   DISCOS_VELOLECTURA   decimal,
-   DISCOS_VELOECRITURA  decimal,
-   primary key (ID_CPU3)
+   DISCOS_ID            char(6) not null,
+   CAT_ID               char(6),
+   DISCOS_FORMA         char(15) not null,
+   DISCOS_INTERFAZ      char(15) not null,
+   DISCOS_CAPACIDAD     decimal not null,
+   DISCOS_VELOLECTURA   decimal not null,
+   DISCOS_VELOECRITURA  decimal not null,
+   primary key (DISCOS_ID)
 );
 
 /*==============================================================*/
@@ -58,12 +58,12 @@ create table DISCOS
 /*==============================================================*/
 create table GPU
 (
-   ID_CPU2              text not null,
-   CAT_ID               text,
-   GPU_CLOCKSPEED       decimal,
-   TURBO_CLOCK_SPEED_   decimal,
-   GPU_SERIE            text,
-   primary key (ID_CPU2)
+   GPU_ID               char(6) not null,
+   CAT_ID               char(6),
+   GPU_CLOCKSPEED       decimal not null,
+   TURBO_CLOCK_SPEED_   decimal not null,
+   GPU_SERIE            char(15) not null,
+   primary key (GPU_ID)
 );
 
 /*==============================================================*/
@@ -71,11 +71,11 @@ create table GPU
 /*==============================================================*/
 create table RAM
 (
-   RAM_ID               text not null,
-   CAT_ID               text,
-   RAM_MCESCRITURA      decimal,
-   RAM_MCLECTURA        decimal,
-   RAM_MCMEZCLA         decimal,
+   RAM_ID               char(6) not null,
+   CAT_ID               char(6),
+   RAM_MCESCRITURA      decimal not null,
+   RAM_MCLECTURA        decimal not null,
+   RAM_MCMEZCLA         decimal not null,
    primary key (RAM_ID)
 );
 
