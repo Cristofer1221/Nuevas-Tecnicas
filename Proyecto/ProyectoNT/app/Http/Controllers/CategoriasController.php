@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Categorias;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class CategoriasController extends Controller
 {
@@ -15,6 +16,7 @@ class CategoriasController extends Controller
     public function index()
     {
         //
+        return view('categorias.index');
     }
 
     /**
@@ -25,6 +27,7 @@ class CategoriasController extends Controller
     public function create()
     {
         //
+        return view('categorias.create');
     }
 
     /**
@@ -35,7 +38,16 @@ class CategoriasController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        /**
+         * if($request->hasFile('Foto')){
+        *$datosCategoria['Foto']=$request->file('Foto')->store('uploads','public');
+        *}
+         */
+        //$datosCategoria=request()->all();
+        $datosCategoria=request()->except('_token');
+        //Insertar Datos Laravel 6.0
+        DB::table('categorias')->insert($datosCategoria);
+        return response()->json($datosCategoria);
     }
 
     /**
