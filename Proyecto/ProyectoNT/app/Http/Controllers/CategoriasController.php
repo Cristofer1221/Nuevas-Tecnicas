@@ -15,8 +15,9 @@ class CategoriasController extends Controller
      */
     public function index()
     {
-        //
-        return view('categorias.index');
+        //El 4 significa el limite de items para mostrar
+        $datos= DB::table('categorias')->paginate(4);
+        return view('categorias.index',['categorias'=>$datos]);
     }
 
     /**
