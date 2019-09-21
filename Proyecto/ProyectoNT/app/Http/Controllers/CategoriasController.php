@@ -13,11 +13,12 @@ class CategoriasController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         //El 4 significa el limite de items para mostrar
-        $datos= DB::table('categorias')->paginate(4);
-        return view('categorias.index',['categorias'=>$datos]);
+        $datos= $request->all();
+        return view('categorias.index',compact($datos));
+        
     }
 
     /**
@@ -94,5 +95,6 @@ class CategoriasController extends Controller
     public function destroy(Categorias $categorias)
     {
         //
+        
     }
 }
