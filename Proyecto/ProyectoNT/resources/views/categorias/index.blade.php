@@ -32,7 +32,7 @@
     <h2 class="alert alert-success">HardWare Categorías</h2>
 
     <div class="row">
-        <a href="" class="btn btn-info" style="margin-left:75%" data-toggle="modal" data-target="#exampleModal">Agregar Nueva Categoría</a>
+        <a href="categorias/create" class="btn btn-info" style="margin-left:75%" data-toggle="modal" data-target="#exampleModal">Agregar Nueva Categoría</a>
         <div class="col-md-12">
             <table class="table table-bordered">
                 <thead>
@@ -46,16 +46,22 @@
                     <tr>
                             <td>{{++$key}}</td>
                             <td>{{$categoria->nombre}}</td>
-                            <td></td>
+                            <td>
+                                <a href="" type="button" class="btn btn-success btn-sm">Ver</a>
+                                <a href="" type="button" class="btn btn-info btn-sm">Editar</a>
+                                <a href="" type="button" class="btn btn-danger btn-sm">Borrar</a>
+                            </td>
                         </tr>
                     @endforeach
                     </tbody>
                 </thead>
             </table>
          <!-----Nueva Categoria----->    
-        
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+
+        </div>
+     <!-- Agregar Categoría-->   
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog model-notify modal-lg modal-right modal-success" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -66,25 +72,44 @@
       </div>
       <div class="modal-body">
       <form action="{{url('/categorias')}}" method="post">
-{{ csrf_field() }}
-<label for="Nombre">{{'Nombre de la Categoría'}}</label>
-<input type="text" name="Nombre" id="Nombre" value="">
-<br/> <br/>
-<input type="submit" value="Agregar">
-</form>
-            <br>
+        {{ csrf_field() }}
+        <label for="Nombre">{{'Nombre de la Categoría'}}</label>
+    <input type="text" name="Nombre" id="Nombre" value="">
+        <br/> 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-        <button type="submit" class="btn btn-success">Guardar Cambios</button>
+        <button type="submit" class="btn btn-success" value="Agregar" >Agregar</button>
       </div>
+        <!-- Editar Categoría-->  
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog model-notify modal-lg modal-right modal-success" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ingreso de Datos</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form action="{{url('/categorias')}}" method="post">
+        {{ csrf_field() }}
+        <label for="Nombre">{{'Nombre de la Categoría'}}</label>
+    <input type="text" name="Nombre" id="Nombre" value="">
+        <br/> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-success" value="Agregar" >Agregar</button>
+      </div>
+
+        <!-- Eliminar Categoría-->  
+
+
       </form>
     </div>
   </div>
 </div>
-
-
-        </div>
     </div>
 
     </div>
