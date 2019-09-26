@@ -1,0 +1,11 @@
+Modificar los siguientes archivos
+
+database.php de la carpeta config
+
+.env del proyecto
+
+Cambiar el campo y dejar sin contraseña
+database.php
+'password' => env('DB_PASSWORD', '')
+.env
+DB_PASSWORD=
