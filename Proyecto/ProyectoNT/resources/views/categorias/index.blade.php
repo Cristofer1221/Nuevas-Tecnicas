@@ -48,7 +48,7 @@
                             <td>{{$categoria->nombre}}</td>
                             <td>
                                 <a href="" type="button" class="btn btn-success btn-sm"> Ver</a>
-                                <a data-toggle="modal" data-target="#exampleModal-edit" type="button" class="btn btn-info btn-sm"> Editar</a>
+                                <a data-categoria_id="{{$categoria->id}}" data-Nombre="{{$categoria->nombre}}" data-toggle="modal" data-target="#exampleModal-edit" type="button" class="btn btn-info btn-sm"> Editar</a>
                                 <a href="" type="button" class="btn btn-danger btn-sm"> Eliminar</a>
                            
                             </td>
@@ -96,13 +96,15 @@
         </button>
       </div>
       <div class="modal-body">
-      <form action="{{url('/categorias')}}" method="post">
+      <form action="{{route('categorias.update','categoria_id')}}" method="post">
 {{ csrf_field() }}
+@method('PUT')
 <label for="Nombre">{{'Nombre de la Categoría'}}</label>
 <input type="text" name="Nombre" id="Nombre" value="">
 <br/> <br/>
 <br>
       </div>
+      <input type="hidden" id="categoria_id" name="categoria_id">
       <div class="modal-footer">
         <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
         <button type="submit" class="btn btn-success" value="Agregar">Actualizar Categoría</button>
@@ -117,4 +119,16 @@
 </div>
 </div>
 </body>
+<script>
+$('#exampleModal-edit').on('show.bs.modal',function(event)
+{
+  var button = $(event.relatedTarget)
+  var nombre = button.data('nombre')
+  var categoria_id= button.data('categoria_id')
+  var modal = $(this)
+  modal.find('.modal-title').text('Editar Categoría');
+  modal.find('.modal-body #Nombre').val(nombre);
+  modal.find('.modal-body #categoria_id').val(categoria_id);
+})
+</script>
 </html>
