@@ -30,7 +30,7 @@
                                         <th> Cores </th><td> {{ $cpu->Cores }} </td></tr>
                                         <th> Socket </th><td> {{ $cpu->Socket }} </td></tr>
                                         <th> Marca </th><td> {{ $cpu->Marca }} </td></tr>
-                                        <th> Foto </th><td> {{ $cpu->Foto }} </td></tr>
+                                        <th> Foto </th><td> <img src="{{asset('storage').'/'. $cpu->Foto }}" alt="" width="200"> </td></tr>
                                         <th> categoria_id </th><td> {{ $cpu->categoria_id }} </td></tr>
                                 </tbody>
                             </table>
