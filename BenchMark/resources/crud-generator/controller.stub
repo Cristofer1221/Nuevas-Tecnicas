@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace DummyNamespace;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use DummyRootNamespaceHttp\Requests;
+use DummyRootNamespaceHttp\Controllers\Controller;
 
-use App\cpu;
+use DummyRootNamespace{{modelNamespace}}{{modelName}};
 use Illuminate\Http\Request;
 
-class cpuController extends Controller
+class DummyClass extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,22 +18,15 @@ class cpuController extends Controller
     public function index(Request $request)
     {
         $keyword = $request->get('search');
-        $perPage = 25;
+        $perPage = {{pagination}};
 
         if (!empty($keyword)) {
-            $cpu = cpu::where('ClockSpeed', 'LIKE', "%$keyword%")
-                ->orWhere('TurboClockSpeed', 'LIKE', "%$keyword%")
-                ->orWhere('Cores', 'LIKE', "%$keyword%")
-                ->orWhere('Socket', 'LIKE', "%$keyword%")
-                ->orWhere('Marca', 'LIKE', "%$keyword%")
-                ->orWhere('Foto', 'LIKE', "%$keyword%")
-                ->orWhere('categoria_id', 'LIKE', "%$keyword%")
-                ->latest()->paginate($perPage);
+            ${{crudName}} = {{modelName}}::{{whereSnippet}}latest()->paginate($perPage);
         } else {
-            $cpu = cpu::latest()->paginate($perPage);
+            ${{crudName}} = {{modelName}}::latest()->paginate($perPage);
         }
 
-        return view('cpu.index', compact('cpu'));
+        return view('{{viewPath}}{{viewName}}.index', compact('{{crudName}}'));
     }
 
     /**
@@ -43,7 +36,7 @@ class cpuController extends Controller
      */
     public function create()
     {
-        return view('cpu.create');
+        return view('{{viewPath}}{{viewName}}.create');
     }
 
     /**
@@ -55,16 +48,12 @@ class cpuController extends Controller
      */
     public function store(Request $request)
     {
-        
+        {{validationRules}}
         $requestData = $request->all();
-                if ($request->hasFile('Foto')) {
-            $requestData['Foto'] = $request->file('Foto')
-                ->store('uploads', 'public');
-        }
+        {{fileSnippet}}
+        {{modelName}}::create($requestData);
 
-        cpu::create($requestData);
-
-        return redirect('cpu')->with('flash_message', 'cpu added!');
+        return redirect('{{routeGroup}}{{viewName}}')->with('flash_message', '{{modelName}} added!');
     }
 
     /**
@@ -76,9 +65,9 @@ class cpuController extends Controller
      */
     public function show($id)
     {
-        $cpu = cpu::findOrFail($id);
+        ${{crudNameSingular}} = {{modelName}}::findOrFail($id);
 
-        return view('cpu.show', compact('cpu'));
+        return view('{{viewPath}}{{viewName}}.show', compact('{{crudNameSingular}}'));
     }
 
     /**
@@ -90,9 +79,9 @@ class cpuController extends Controller
      */
     public function edit($id)
     {
-        $cpu = cpu::findOrFail($id);
+        ${{crudNameSingular}} = {{modelName}}::findOrFail($id);
 
-        return view('cpu.edit', compact('cpu'));
+        return view('{{viewPath}}{{viewName}}.edit', compact('{{crudNameSingular}}'));
     }
 
     /**
@@ -105,17 +94,13 @@ class cpuController extends Controller
      */
     public function update(Request $request, $id)
     {
-        
+        {{validationRules}}
         $requestData = $request->all();
-                if ($request->hasFile('Foto')) {
-            $requestData['Foto'] = $request->file('Foto')
-                ->store('uploads', 'public');
-        }
+        {{fileSnippet}}
+        ${{crudNameSingular}} = {{modelName}}::findOrFail($id);
+        ${{crudNameSingular}}->update($requestData);
 
-        $cpu = cpu::findOrFail($id);
-        $cpu->update($requestData);
-
-        return redirect('cpu')->with('flash_message', 'cpu updated!');
+        return redirect('{{routeGroup}}{{viewName}}')->with('flash_message', '{{modelName}} updated!');
     }
 
     /**
@@ -127,8 +112,8 @@ class cpuController extends Controller
      */
     public function destroy($id)
     {
-        cpu::destroy($id);
+        {{modelName}}::destroy($id);
 
-        return redirect('cpu')->with('flash_message', 'cpu deleted!');
+        return redirect('{{routeGroup}}{{viewName}}')->with('flash_message', '{{modelName}} deleted!');
     }
 }

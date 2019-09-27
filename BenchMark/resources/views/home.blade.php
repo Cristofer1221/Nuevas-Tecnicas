@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header" action=>Panel de Administrador</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -13,7 +13,10 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
+                    <a href="/categoria">Administrar Categorías</a>
+                    <br>
+                    <a href="/cpu">Administrar Cpus</a>
+                    <br>
                     You are logged in!
                 </div>
             </div>

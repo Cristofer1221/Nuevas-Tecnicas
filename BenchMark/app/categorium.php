@@ -4,14 +4,14 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class cpu extends Model
+class categorium extends Model
 {
     /**
      * The database table used by the model.
      *
      * @var string
      */
-    protected $table = 'cpus';
+    protected $table = 'categorias';
 
     /**
     * The database primary key value.
@@ -25,7 +25,7 @@ class cpu extends Model
      *
      * @var array
      */
-    protected $fillable = ['ClockSpeed', 'TurboClockSpeed', 'Cores', 'Socket', 'Marca', 'Foto', 'categoria_id'];
+    protected $fillable = ['categoria'];
 
     
 }

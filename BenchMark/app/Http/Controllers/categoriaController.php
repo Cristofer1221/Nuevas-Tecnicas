@@ -5,10 +5,10 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-use App\cpu;
+use App\categorium;
 use Illuminate\Http\Request;
 
-class cpuController extends Controller
+class categoriaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -21,19 +21,13 @@ class cpuController extends Controller
         $perPage = 25;
 
         if (!empty($keyword)) {
-            $cpu = cpu::where('ClockSpeed', 'LIKE', "%$keyword%")
-                ->orWhere('TurboClockSpeed', 'LIKE', "%$keyword%")
-                ->orWhere('Cores', 'LIKE', "%$keyword%")
-                ->orWhere('Socket', 'LIKE', "%$keyword%")
-                ->orWhere('Marca', 'LIKE', "%$keyword%")
-                ->orWhere('Foto', 'LIKE', "%$keyword%")
-                ->orWhere('categoria_id', 'LIKE', "%$keyword%")
+            $categoria = categorium::where('categoria', 'LIKE', "%$keyword%")
                 ->latest()->paginate($perPage);
         } else {
-            $cpu = cpu::latest()->paginate($perPage);
+            $categoria = categorium::latest()->paginate($perPage);
         }
 
-        return view('cpu.index', compact('cpu'));
+        return view('categoria.index', compact('categoria'));
     }
 
     /**
@@ -43,7 +37,7 @@ class cpuController extends Controller
      */
     public function create()
     {
-        return view('cpu.create');
+        return view('categoria.create');
     }
 
     /**
@@ -57,14 +51,10 @@ class cpuController extends Controller
     {
         
         $requestData = $request->all();
-                if ($request->hasFile('Foto')) {
-            $requestData['Foto'] = $request->file('Foto')
-                ->store('uploads', 'public');
-        }
+        
+        categorium::create($requestData);
 
-        cpu::create($requestData);
-
-        return redirect('cpu')->with('flash_message', 'cpu added!');
+        return redirect('categoria')->with('flash_message', 'categorium added!');
     }
 
     /**
@@ -76,9 +66,9 @@ class cpuController extends Controller
      */
     public function show($id)
     {
-        $cpu = cpu::findOrFail($id);
+        $categorium = categorium::findOrFail($id);
 
-        return view('cpu.show', compact('cpu'));
+        return view('categoria.show', compact('categorium'));
     }
 
     /**
@@ -90,9 +80,9 @@ class cpuController extends Controller
      */
     public function edit($id)
     {
-        $cpu = cpu::findOrFail($id);
+        $categorium = categorium::findOrFail($id);
 
-        return view('cpu.edit', compact('cpu'));
+        return view('categoria.edit', compact('categorium'));
     }
 
     /**
@@ -107,15 +97,11 @@ class cpuController extends Controller
     {
         
         $requestData = $request->all();
-                if ($request->hasFile('Foto')) {
-            $requestData['Foto'] = $request->file('Foto')
-                ->store('uploads', 'public');
-        }
+        
+        $categorium = categorium::findOrFail($id);
+        $categorium->update($requestData);
 
-        $cpu = cpu::findOrFail($id);
-        $cpu->update($requestData);
-
-        return redirect('cpu')->with('flash_message', 'cpu updated!');
+        return redirect('categoria')->with('flash_message', 'categorium updated!');
     }
 
     /**
@@ -127,8 +113,8 @@ class cpuController extends Controller
      */
     public function destroy($id)
     {
-        cpu::destroy($id);
+        categorium::destroy($id);
 
-        return redirect('cpu')->with('flash_message', 'cpu deleted!');
+        return redirect('categoria')->with('flash_message', 'categorium deleted!');
     }
 }

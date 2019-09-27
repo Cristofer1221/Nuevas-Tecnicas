@@ -21,5 +21,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 //Route::get('/categorias', 'CategoriasController@index');
 //Route::get('/categorias/create', 'CategoriasController@create');
 
-Route::resource('categorias', 'CategoriasController');
-Route::resource('cpus', 'CpuController');
+Route::get('/admin', function () {
+    return view('admin.dashboard');
+});
+Route::resource('categoria', 'categoriaController');
+Route::resource('cpu', 'cpuController');
