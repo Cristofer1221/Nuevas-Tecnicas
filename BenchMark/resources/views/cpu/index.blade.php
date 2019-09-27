@@ -45,7 +45,7 @@
                                         <td>{{ $item->ClockSpeed }}</td><td>{{ $item->TurboClockSpeed }}</td><td>{{ $item->Cores }}</td>
                                         <td>{{ $item->Socket }}</td>
                                         <td>{{ $item->Marca }}</td>
-                                        <td> <img src="{{asset('storag').'/'. $item->Foto }}" alt="" width="200"> </td>
+                                        <td> <img src="{{asset('storage').'/'. $item->Foto }}" alt="" width="200"> </td>
                                         <td>{{ $item->categoria_id }}</td>
                                         <td>
                                             <a href="{{ url('/cpu/' . $item->id) }}" title="View cpu"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> Ver</button></a>
