@@ -146,6 +146,22 @@
               </div>
             </div>
 
+            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Mouse</h4>
+            <p class="text-muted"></p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+
+
   </section>
 
 
@@ -156,7 +172,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Servicios</h2>
-          <h3 class="section-subheading text-muted">El benchmarking es un proceso continuo por el cual se toma como referencia los productos, servicios o procesos de trabajo de las empresas líderes, para compararlos con los de tu propia empresa y posteriormente realizar mejoras e implementarlas.</h3>
+          <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
       <div class="row text-center">
@@ -166,7 +182,7 @@
             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Consulta donde Adquirir Hardware</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <p class="text-muted"> <a href="https://www.mtec-ec.com/"> Click Aquí</a> </p>
         </div>
         <div class="col-md-4">
           <!--<span class="fa-stack fa-4x">
@@ -183,95 +199,32 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Consulta Información sobre Hardware</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
+          <h4 class="service-heading">Consulta Información sobre Hardware Específico</h4>
+          <p class="text-muted"> <a href="/cpu"> Click Aquí</a> </p></div>
       </div>
     </div>
   </section>
+
 
   
-  <!-- About -->
-  <section id="about">
+<!-- 360 -->
+<section id="360">
     <div class="container">
-      <div class="row">
+    <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Sobre Nosotros</h2>
-          <h3 class="section-subheading text-muted">Somos BenchMark</h3>
+          <h2 class="section-heading text-uppercase">Imágenes 360</h2>
+          <h3 class="section-subheading text-muted"></h3>
         </div>
-      </div>
+    </div>
       <div class="row">
-        <div class="col-lg-12">
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2009-2011</h4>
-                  <h4 class="subheading">Our Humble Beginnings</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>March 2011</h4>
-                  <h4 class="subheading">An Agency is Born</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 class="subheading">Transition to Full Service</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 class="subheading">Phase Two Expansion</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
+      <iframe width="90%" height="400px" allowFullScreen="true" style="display:block; margin:10px auto; border:0 none; max-width:880px;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 20px,
+       rgba(0, 0, 0, 0.23) 0px 3px 20px;" src="https://panoraven.com/es/embed/FtAtfFLPT0"></iframe>
       </div>
     </div>
   </section>
 
+
+  
   <!-- Team -->
   <section class="bg-light" id="team">
     <div class="container">
@@ -464,7 +417,9 @@
                   del ordenador que se encarga de procesar los datos provenientes de la unidad central de procesamiento y 
                   transformarlos en información comprensible y representable en el dispositivo de salida. </p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <button class="btn-primary" data-dismiss="modal" type="button">
+                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/comparation'" >
+                  
+                <a href="/comparation">
                 <i class="fas fa-arrow-alt-circle-right"></i>
                   COMPARAR</button>
               </div>
@@ -493,7 +448,7 @@
                 <p class="item-intro text-muted">El procesador es el cerebro del sistema, justamente procesa todo lo que ocurre en la PC y ejecuta todas las acciones que existen. Cuanto más rápido sea el procesador que tiene una computadora, más rápidamente se ejecutarán las órdenes que se le den a la máquina. Este componente es parte del hardware de muchos dispositivos, no solo de tu computadora.</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
 
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/comparation'" >
                 <i class="fas fa-arrow-alt-circle-right"></i>
                   COMPARAR</button>
               </div>
@@ -521,8 +476,7 @@
                 <h2 class="text-uppercase">Tarjetas RAM</h2>
                 <p class="item-intro text-muted">RAM viene de sus siglas en inglés: Random Access Memory (en español Memoria de Acceso Aleatorio), y es una pequeña memoria de rápidas prestaciones que usa el ordenador para trabajar internamente y almacenar datos a los que necesita acceso rápido. Lo de acceso aleatorio quiere decir que puedes acceder a cualquier parte de la memoria instantáneamente sin tener que leer primero las anteriores. .</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/comparation'" >
                 <i class="fas fa-arrow-alt-circle-right"></i>
                   COMPARAR</button>
               </div>
@@ -550,7 +504,8 @@
                 <h2 class="text-uppercase">DISCOS DE ALMACENAMIENTO</h2>
                 <p class="item-intro text-muted">Los dispositivos de almacenamiento son elementos técnicos destinados a proveer de espacio físico para albergar archivos. Los mismos evidenciaron una gran evolución con el paso de los años, sobre todo en lo que respecta a capacidad y velocidad de transferencia..</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
+               
+                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/comparation'" >
                 <i class="fas fa-arrow-alt-circle-right"></i>
                   COMPARAR</button>
               </div>
@@ -560,8 +515,35 @@
       </div>
     </div>
   </div>
+  </div>
 
- 
+ <!-- Modal 5 -->
+ <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Mouse</h2>
+                <p class="item-intro text-muted">El mouse o ratón es un dispositivo pequeño que permite señalar e engresar información. Se le denomina raton debido a su apariencia. Un mouse regularmente es arrastrado sobre una superficie plana (escritorio o mesa) el movimiento realizado por el mouse es reflejada dentro del monitor mediante una flechita llamada puntero del mouse. La acción de pulsar y soltar un botón se denomina clic.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/comparation'" >
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                  COMPARAR</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
