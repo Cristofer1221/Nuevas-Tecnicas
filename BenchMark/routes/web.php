@@ -26,6 +26,11 @@ Route::get('/admin', function () {
     return view('admin');
 });
 
+Route::get('/home', function () {
+    return view('admin');
+});
+
+
 Route::get('/comparation', function () {
     return view('comparation');
 });
