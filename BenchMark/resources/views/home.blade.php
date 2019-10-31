@@ -281,7 +281,7 @@
             <p class="text-muted">DESARROLLADOR</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://twitter.com/home">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
