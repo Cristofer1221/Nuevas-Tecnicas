@@ -291,7 +291,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://ec.linkedin.com">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
