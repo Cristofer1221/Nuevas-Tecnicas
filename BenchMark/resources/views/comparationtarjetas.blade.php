@@ -96,7 +96,7 @@
                             <div class="generic_price_tag clearfix">	
                                 <span class="price">
                                     <span class="sign">$</span>
-                                    <span class="currency">120</span>
+                                    <span class="currency">210</span>
                                     <span class="cent">.00</span>
                                     <i class="fas fa-arrow-alt-circle-right"></i>
                                 </span>
