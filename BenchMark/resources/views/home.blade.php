@@ -286,7 +286,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#https://www.facebook.com/sebass.lopez.98?ref=bookmarks">
+                <a href="https://www.facebook.com/sebass.lopez.98?ref=bookmarks">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
