@@ -144,7 +144,7 @@
                             	<!--HEAD START-->
                                 <div class="head_bg"></div>
                                 <div class="head">
-                                    <span>INTEL CORE I9</span>
+                                    <span>Nvidia Geforce Gtx 1080ti</span>
                                 </div>
                                 <!--//HEAD END-->
                                 
@@ -155,7 +155,7 @@
                             <div class="generic_price_tag clearfix">	
                                 <span class="price">
                                     <span class="sign">$</span>
-                                    <span class="currency">369</span>
+                                    <span class="currency">659</span>
                                     <span class="cent">.99</span>
                                   
                                 </span>
@@ -168,11 +168,10 @@
                         <!--FEATURE LIST START-->
                         <div class="generic_feature_list">
                         	<ul>
-                            	<li><span>Tipo</span> Intel</li>
-                                <li><span>ClockSpeed</span> 3.6</li>
-                                <li><span>TurboSpeed</span> 4.1</li>
-                                <li><span>Cores</span> 8</li>
-                                <li><span>Socket</span> LGA 1151</li>
+                            	<li><span>Tipo</span> NVIDIA</li>
+                                <li><span>Reloj Basico</span> 2432 MHZ</li>
+                                <li><span>Reloj de Aceleración</span> 2660 MHZ</li>
+                                <li><span>Serie</span> Geforce Gtx 1080ti Ftw3 11gb</li>                                
                             </ul>
                         </div>
                         <!--//FEATURE LIST END-->
