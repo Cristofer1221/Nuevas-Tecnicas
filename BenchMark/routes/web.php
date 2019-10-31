@@ -25,6 +25,12 @@ Auth::routes();
 Route::get('/admin', function () {
     return view('admin.dashboard');
 });
+
+Route::get('/comparation', function () {
+    return view('comparation');
+});
+
+
 Route::resource('categoria', 'categoriaController');
 Route::resource('cpu', 'cpuController');
 

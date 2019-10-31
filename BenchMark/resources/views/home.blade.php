@@ -391,36 +391,7 @@
           <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <!--<form id="contactForm" name="sentMessage" novalidate="novalidate">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Tú nombre *" required="required" data-validation-required-message="Por favor ingrese su nombre.">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input class="form-control" id="email" type="email" placeholder="Tú Email *" required="required" data-validation-required-message="Por favor ingrese su correo.">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input class="form-control" id="phone" type="tel" placeholder="Tú Celular *" required="required" data-validation-required-message="Por favor ingrese su teléfono.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Mensaje *" required="required" data-validation-required-message="Por favor ingrese su mensaje."></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="clearfix"></div>
-              <div class="col-lg-12 text-center">
-                <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" onClick="MostrarMensaje();">Enviar Mensaje</button>
-              </div>
-            </div>
+      
           </form> -->
           <div class="col-lg-12 text-center">
           
