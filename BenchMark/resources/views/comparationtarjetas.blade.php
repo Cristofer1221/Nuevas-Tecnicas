@@ -93,7 +93,8 @@
                             <!--//HEAD CONTENT END-->
                             
                             <!--PRICE START-->
-                            <div class="generic_price_tag clearfix">	
+                            <div class="generic_price_tag clearfix">
+                            <span>Nvidia Geforce Gtx 1080ti</span>	
                                 <span class="price">
                                     <span class="sign">$</span>
                                     <span class="currency">300</span>

@@ -48,9 +48,6 @@ Route::get('/comparationtarjetas', function () {
 });
 
 
-
-
-
 Route::resource('categoria', 'categoriaController');
 Route::resource('cpu', 'cpuController');
 

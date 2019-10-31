@@ -95,6 +95,7 @@
                             
                             <!--PRICE START-->
                             <div class="generic_price_tag clearfix">	
+                            <span>INTEL CORE I9</span>
                                 <span class="price">
                                     <span class="sign">$</span>
                                     <span class="currency">120</span>
