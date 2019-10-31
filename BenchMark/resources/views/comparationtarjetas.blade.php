@@ -44,7 +44,7 @@
                             <div class="generic_price_tag clearfix">	
                                 <span class="price">
                                     <span class="sign">$</span>
-                                    <span class="currency">219</span>
+                                    <span class="currency">319</span>
                                     <span class="cent">.99</span>
                                 </span>
                             </div>
@@ -96,7 +96,7 @@
                             <div class="generic_price_tag clearfix">	
                                 <span class="price">
                                     <span class="sign">$</span>
-                                    <span class="currency">210</span>
+                                    <span class="currency">300</span>
                                     <span class="cent">.00</span>
                                     <i class="fas fa-arrow-alt-circle-right"></i>
                                 </span>
@@ -109,13 +109,13 @@
                         <!--FEATURE LIST START-->
                         <div class="generic_feature_list">
                         	<ul>
-                            <li><span>  <i class="fas fa-equals"></i> Tipo</span> Intel  <i class="fas fa-equals"></i>      </li>
+                            <li><span>  <i class="fas fa-equals"></i> Tipo</span> NVIDIA  <i class="fas fa-equals"></i>      </li>
                             
-                                <li><span>ClockSpeed  <i class="fas fa-arrow-alt-circle-right"></i> </span> 3.6 </i></li>
+                                <li><span> Reloj Basico  <i class="fas fa-arrow-alt-circle-right"></i> </span> 1632 MHZ </i></li>
 
-                                <li><span>TurboSpeed  <i class="fas fa-arrow-alt-circle-right"></i></span> 4.1</li>
-                                <li><span>Cores  <i class="fas fa-arrow-alt-circle-right"></i></span> 8</li>
-                                <li><span>Socket  <i class="fas fa-arrow-alt-circle-right"></i></span> LGA 1151</li>
+                                <li><span> Reloj de Aceleración  <i class="fas fa-arrow-alt-circle-right"></i></span> 1860 MHZ</li>
+                                <li><span> Serie  <i class="fas fa-arrow-alt-circle-right"></i></span> Evga Nvidia Geforce Gtx 1060 Sc</li>
+                                
                             </ul>
                         </div>
                         <!--//FEATURE LIST END-->
