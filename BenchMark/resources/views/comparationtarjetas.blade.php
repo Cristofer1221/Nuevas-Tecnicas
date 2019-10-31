@@ -59,7 +59,7 @@
                             	<li><span>Tipo</span> NVIDIA</li>
                                 <li><span>Reloj Basico</span> 1506 MHz</li>
                                 <li><span>Reloj de Aceleración</span> 1708 MHz</li>
-                                <li><span>Serie</span>  1060</li>           
+                                <li><span>Serie</span>GTX-1060</li>           
                             </ul>
                         </div>
                         <!--//FEATURE LIST END-->
@@ -96,7 +96,7 @@
                             <div class="generic_price_tag clearfix">	
                                 <span class="price">
                                     <span class="sign">$</span>
-                                    <span class="currency">120</span>
+                                    <span class="currency">210</span>
                                     <span class="cent">.00</span>
                                     <i class="fas fa-arrow-alt-circle-right"></i>
                                 </span>
