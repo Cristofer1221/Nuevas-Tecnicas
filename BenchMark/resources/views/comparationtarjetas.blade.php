@@ -9,7 +9,7 @@
                 <div class="col-md-12">
                     <!--PRICE HEADING START-->
                     <div class="price-heading clearfix">
-                    <h2 class="section-heading text-uppercase">COMPARACIÓN PROCESADORES</h2>
+                    <h2 class="section-heading text-uppercase">COMPARACIÓN TARJETAS</h2>
                     </div>
                     <!--//PRICE HEADING END-->
                 </div>
@@ -33,7 +33,7 @@
                             	<!--HEAD START-->
                                 <div class="head_bg"></div>
                                 <div class="head">
-                                    <span>INTEL CORE I5</span>
+                                    <span>GTX1060-6G</span>
                                 </div>
                                 <!--//HEAD END-->
                                 
@@ -44,7 +44,7 @@
                             <div class="generic_price_tag clearfix">	
                                 <span class="price">
                                     <span class="sign">$</span>
-                                    <span class="currency">249</span>
+                                    <span class="currency">219</span>
                                     <span class="cent">.99</span>
                                 </span>
                             </div>
@@ -56,11 +56,11 @@
                         <!--FEATURE LIST START-->
                         <div class="generic_feature_list">
                         	<ul>
-                            	<li><span>Tipo</span> Intel</li>
-                                <li><span>ClockSpeed</span> 2.6</li>
-                                <li><span>TurboSpeed</span> 3.2</li>
-                                <li><span>Cores</span> 4</li>
-                                <li><span>Socket</span> LGA 1151</li>
+                            	<li><span>Tipo</span> NVIDIA</li>
+                                <li><span>Reloj Basico</span> 1506 MHz</li>
+                                <li><span>Reloj de Aceleración</span> 1708 MHz</li>
+                                <li><span>Memoria</span> 6144 MB</li>
+                                <li><span>Ancho de banda</span> LGA 1151</li>
                             </ul>
                         </div>
                         <!--//FEATURE LIST END-->
