@@ -11,13 +11,14 @@
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
 //Route::get('/categorias', 'CategoriasController@index');
 //Route::get('/categorias/create', 'CategoriasController@create');
 
@@ -26,3 +27,4 @@ Route::get('/admin', function () {
 });
 Route::resource('categoria', 'categoriaController');
 Route::resource('cpu', 'cpuController');
+
