@@ -9,7 +9,7 @@
                 <div class="col-md-12">
                     <!--PRICE HEADING START-->
                     <div class="price-heading clearfix">
-                    <h2 class="section-heading text-uppercase">COMPARACIÓN PROCESADORES</h2>
+                    <h2 class="section-heading text-uppercase">COMPARACIÓN RAMS</h2>
                     </div>
                     <!--//PRICE HEADING END-->
                 </div>
@@ -33,7 +33,7 @@
                             	<!--HEAD START-->
                                 <div class="head_bg"></div>
                                 <div class="head">
-                                    <span>INTEL CORE I5</span>
+                                    <span>CorsairCMK16GX4M2B3000C15(|B|R|W)</span>
                                 </div>
                                 <!--//HEAD END-->
                                 
@@ -44,8 +44,8 @@
                             <div class="generic_price_tag clearfix">	
                                 <span class="price">
                                     <span class="sign">$</span>
-                                    <span class="currency">249</span>
-                                    <span class="cent">.99</span>
+                                    <span class="currency">65</span>
+                                    <span class="cent">.00</span>
                                 </span>
                             </div>
                             <!--//PRICE END-->
@@ -56,11 +56,10 @@
                         <!--FEATURE LIST START-->
                         <div class="generic_feature_list">
                         	<ul>
-                            	<li><span>Tipo</span> Intel</li>
-                                <li><span>ClockSpeed</span> 2.6</li>
-                                <li><span>TurboSpeed</span> 3.2</li>
-                                <li><span>Cores</span> 4</li>
-                                <li><span>Socket</span> LGA 1151</li>
+                            	<li><span>Marca</span> Corsair</li>
+                                <li><span>Velocidad Lectura</span> 32.2 GB/s</li>
+                                <li><span>Velocidad Escritura</span> 30.3 GB/s</li>
+                                <li><span>Velocidad Lectura/Escritura</span> 27.2 GB/s</li>
                             </ul>
                         </div>
                         <!--//FEATURE LIST END-->
@@ -87,6 +86,7 @@
                                 <div class="head_bg"></div>
                                 <div class="head">
                                     <span> MEJOR OPCIÓN </span>
+                                   
                                 </div>
                                 <!--//HEAD END-->
                                 
@@ -94,7 +94,8 @@
                             <!--//HEAD CONTENT END-->
                             
                             <!--PRICE START-->
-                            <div class="generic_price_tag clearfix">	
+                            <div class="generic_price_tag clearfix">
+                            <span> G.SKILLF4-3200C16D-16GTZR </span>	
                                 <span class="price">
                                     <span class="sign">$</span>
                                     <span class="currency">120</span>
@@ -110,13 +111,13 @@
                         <!--FEATURE LIST START-->
                         <div class="generic_feature_list">
                         	<ul>
-                            <li><span>  <i class="fas fa-equals"></i> Tipo</span> Intel  <i class="fas fa-equals"></i>      </li>
+                            <li><span>  <i class="fas fa-equals"></i> Marca</span> Intel  <i class="fas fa-equals"></i>      </li>
                             
-                                <li><span>ClockSpeed  <i class="fas fa-arrow-alt-circle-right"></i> </span> 3.6 </i></li>
+                                <li><span>Velocidad Lectura  <i class="fas fa-arrow-alt-circle-right"></i> </span> 32.2 GB/s </i></li>
 
-                                <li><span>TurboSpeed  <i class="fas fa-arrow-alt-circle-right"></i></span> 4.1</li>
-                                <li><span>Cores  <i class="fas fa-arrow-alt-circle-right"></i></span> 8</li>
-                                <li><span>Socket  <i class="fas fa-arrow-alt-circle-right"></i></span> LGA 1151</li>
+                                <li><span>Velocidad Escritura  <i class="fas fa-arrow-alt-circle-right"></i></span> 30.3 GB/s</li>
+                                <li><span>Velocidad Lectura/Escritura  <i class="fas fa-arrow-alt-circle-right"></i></span> 27.2 GB/s</li>
+                              
                             </ul>
                         </div>
                         <!--//FEATURE LIST END-->
@@ -145,7 +146,7 @@
                             	<!--HEAD START-->
                                 <div class="head_bg"></div>
                                 <div class="head">
-                                    <span>INTEL CORE I9</span>
+                                    <span>G.SKILLF4-3200C16D-16GTZR</span>
                                 </div>
                                 <!--//HEAD END-->
                                 
@@ -156,9 +157,9 @@
                             <div class="generic_price_tag clearfix">	
                                 <span class="price">
                                     <span class="sign">$</span>
-                                    <span class="currency">369</span>
-                                    <span class="cent">.99</span>
-                                  
+                                    <span class="currency">85</span>
+                                    <span class="cent">.00</span>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
                                 </span>
                             </div>
                             <!--//PRICE END-->
@@ -169,11 +170,10 @@
                         <!--FEATURE LIST START-->
                         <div class="generic_feature_list">
                         	<ul>
-                            	<li><span>Tipo</span> Intel</li>
-                                <li><span>ClockSpeed</span> 3.6</li>
-                                <li><span>TurboSpeed</span> 4.1</li>
-                                <li><span>Cores</span> 8</li>
-                                <li><span>Socket</span> LGA 1151</li>
+                            	<li><span>Marca</span> Corsair</li>
+                                <li><span>Velocidad Lectura</span> 32.2 GB/s</li>
+                                <li><span>Velocidad Escritura</span> 30.3 GB/s</li>
+                                <li><span>Velocidad Lectura/Escritura</span> 27.2 GB/s</li>
                             </ul>
                         </div>
                         <!--//FEATURE LIST END-->
