@@ -55,7 +55,7 @@
             <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/login">Administrador</a>
+            <a class="nav-link js-scroll-trigger" href="/login">Ingresar</a>
           </li>
         </ul>
       </div>
