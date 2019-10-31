@@ -59,8 +59,7 @@
                             	<li><span>Tipo</span> NVIDIA</li>
                                 <li><span>Reloj Basico</span> 1506 MHz</li>
                                 <li><span>Reloj de Aceleración</span> 1708 MHz</li>
-                                <li><span>Memoria</span> 6144 MB</li>
-                                <li><span>Ancho de banda</span> LGA 1151</li>
+                                <li><span>Serie</span>  1060</li>           
                             </ul>
                         </div>
                         <!--//FEATURE LIST END-->
