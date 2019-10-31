@@ -446,7 +446,7 @@
               </div>
             </div>
           </form> -->
-          <div class="col-lg-12 text-center">sss
+          <div class="col-lg-12 text-center">
           
           <h3><b class="contact">Correo:benchmark@gmail.com</b></h3>
           <h3><b class="contact">Teléfono: +59322536388</b></h3>
