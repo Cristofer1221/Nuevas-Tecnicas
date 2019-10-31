@@ -184,6 +184,10 @@
                     <!--//PRICE CONTENT END-->
                         
                 </div>
+
+                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/'" >
+                <i class="fas fa-arrow-alt-circle-left"></i>
+                  Regresar</button>
             </div>	
             <!--//BLOCK ROW END-->
             
