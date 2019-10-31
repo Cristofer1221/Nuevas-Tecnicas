@@ -9,7 +9,7 @@
                 <div class="col-md-12">
                     <!--PRICE HEADING START-->
                     <div class="price-heading clearfix">
-                        <h1>COMPARACION PROCESADORES</h1>
+                    <h2 class="section-heading text-uppercase">COMPARACIÓN PROCESADORES</h2>
                     </div>
                     <!--//PRICE HEADING END-->
                 </div>
@@ -190,7 +190,4 @@
             
         </div>
     </section>             
-	<footer>
-    	<a class="bottom_btn" href="#">&copy; MrSahar</a>
-    </footer>
 </div>
