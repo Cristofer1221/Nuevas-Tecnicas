@@ -410,7 +410,7 @@
                   del ordenador que se encarga de procesar los datos provenientes de la unidad central de procesamiento y 
                   transformarlos en información comprensible y representable en el dispositivo de salida. </p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/comparation'" >
+                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/comparationtarjetas'" >
 
                 <i class="fas fa-arrow-alt-circle-right"></i>
                   COMPARAR</button>
