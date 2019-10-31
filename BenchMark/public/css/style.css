@@ -70,7 +70,7 @@ body{background-color:#eee;}
 
 #generic_price_table .generic_content:hover .generic_price_btn a,
 #generic_price_table .generic_content.active .generic_price_btn a{
-	background-color: #2ECC71;
+	background-color: rgb(204, 46, 46);
 	color: #fff;
 } 
 #generic_price_table{

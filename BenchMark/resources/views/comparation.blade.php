@@ -97,9 +97,9 @@
                             <div class="generic_price_tag clearfix">	
                                 <span class="price">
                                     <span class="sign">$</span>
-                                    <span class="currency">199</span>
-                                    <span class="cent">.99</span>
-                                    <span class="month">/MON</span>
+                                    <span class="currency">120</span>
+                                    <span class="cent">.00</span>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
                                 </span>
                             </div>
                             <!--//PRICE END-->
@@ -110,18 +110,20 @@
                         <!--FEATURE LIST START-->
                         <div class="generic_feature_list">
                         	<ul>
-                            	<li><span>2GB</span> Bandwidth</li>
-                                <li><span>150GB</span> Storage</li>
-                                <li><span>12</span> Accounts</li>
-                                <li><span>7</span> Host Domain</li>
-                                <li><span>24/7</span> Support</li>
+                            <li><span>  <i class="fas fa-equals"></i> Tipo</span> Intel  <i class="fas fa-equals"></i>      </li>
+                            
+                                <li><span>ClockSpeed  <i class="fas fa-arrow-alt-circle-right"></i> </span> 3.6 </i></li>
+
+                                <li><span>TurboSpeed  <i class="fas fa-arrow-alt-circle-right"></i></span> 4.1</li>
+                                <li><span>Cores  <i class="fas fa-arrow-alt-circle-right"></i></span> 8</li>
+                                <li><span>Socket  <i class="fas fa-arrow-alt-circle-right"></i></span> LGA 1151</li>
                             </ul>
                         </div>
                         <!--//FEATURE LIST END-->
                         
                         <!--BUTTON START-->
                         <div class="generic_price_btn clearfix">
-                        	<a class="" href="">Sign up</a>
+                        	<a class="" href="">COMPARAR</a>
                         </div>
                         <!--//BUTTON END-->
                         
