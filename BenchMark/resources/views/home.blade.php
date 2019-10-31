@@ -468,7 +468,7 @@
                 <h2 class="text-uppercase">Tarjetas RAM</h2>
                 <p class="item-intro text-muted">RAM viene de sus siglas en inglés: Random Access Memory (en español Memoria de Acceso Aleatorio), y es una pequeña memoria de rápidas prestaciones que usa el ordenador para trabajar internamente y almacenar datos a los que necesita acceso rápido. Lo de acceso aleatorio quiere decir que puedes acceder a cualquier parte de la memoria instantáneamente sin tener que leer primero las anteriores. .</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/comparation'" >
+                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/comparationrams'" >
                 <i class="fas fa-arrow-alt-circle-right"></i>
                   COMPARAR</button>
               </div>
@@ -497,7 +497,7 @@
                 <p class="item-intro text-muted">Los dispositivos de almacenamiento son elementos técnicos destinados a proveer de espacio físico para albergar archivos. Los mismos evidenciaron una gran evolución con el paso de los años, sobre todo en lo que respecta a capacidad y velocidad de transferencia..</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
                
-                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/comparation'" >
+                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/comparationdiscos'" >
                 <i class="fas fa-arrow-alt-circle-right"></i>
                   COMPARAR</button>
               </div>
@@ -526,7 +526,7 @@
                 <h2 class="text-uppercase">Mouse</h2>
                 <p class="item-intro text-muted">El mouse o ratón es un dispositivo pequeño que permite señalar e engresar información. Se le denomina raton debido a su apariencia. Un mouse regularmente es arrastrado sobre una superficie plana (escritorio o mesa) el movimiento realizado por el mouse es reflejada dentro del monitor mediante una flechita llamada puntero del mouse. La acción de pulsar y soltar un botón se denomina clic.</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/comparation'" >
+                <button class="btn-primary" data-dismiss="modal" type="button" onclick="location.href='/comparationmouse'" >
                 <i class="fas fa-arrow-alt-circle-right"></i>
                   COMPARAR</button>
               </div>

@@ -35,9 +35,21 @@ Route::get('/comparation', function () {
     return view('comparation');
 });
 
+Route::get('/comparationrams', function () {
+    return view('comparationrams');
+});
+Route::get('/comparationdiscos', function () {
+    return view('comparationdiscos');
+});
+
+Route::get('/comparationmouse', function () {
+    return view('comparationmouse');
+});
+
 Route::get('/comparationtarjetas', function () {
     return view('comparationtarjetas');
 });
+
 
 
 
