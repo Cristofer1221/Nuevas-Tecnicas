@@ -35,6 +35,12 @@ Route::get('/comparation', function () {
     return view('comparation');
 });
 
+Route::get('/comparationtarjetas', function () {
+    return view('comparationtarjetas');
+});
+
+
+
 
 Route::resource('categoria', 'categoriaController');
 Route::resource('cpu', 'cpuController');
