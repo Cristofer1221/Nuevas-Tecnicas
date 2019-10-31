@@ -23,7 +23,7 @@ Auth::routes();
 //Route::get('/categorias/create', 'CategoriasController@create');
 
 Route::get('/admin', function () {
-    return view('admin.dashboard');
+    return view('admin');
 });
 
 Route::get('/comparation', function () {
