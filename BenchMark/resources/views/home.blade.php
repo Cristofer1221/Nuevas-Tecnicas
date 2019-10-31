@@ -210,7 +210,7 @@
         </div>
     </div>
       <div class="row">
-      <iframe width="90%" height="500px" allowFullScreen="true" style="display:block; margin:20px auto; border:0 none; max-width:880px;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 20px, rgba(0, 0, 0, 0.23) 0px 3px 20px;" src="https://panoraven.com/embed/9cXNd0jkH0"></iframe>
+      <iframe width="90%" height="500px" allowFullScreen="true" style="display:block; margin:20px auto; border:0 none; max-width:880px;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 20px, rgba(0, 0, 0, 0.23) 0px 3px 20px;" src="https://panoraven.com/es/embed/nLHkOGZZmQ"></iframe>
       </div>
     </div>
   </section>
