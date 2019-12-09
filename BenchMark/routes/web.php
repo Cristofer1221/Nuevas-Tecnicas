@@ -11,43 +11,24 @@
 |
 */
 
-
 Route::get('/', function () {
     return view('home');
 });
 
 Auth::routes();
 
+//Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/categorias', 'CategoriasController@index');
+//Route::get('/categorias/create', 'CategoriasController@create');
 
 Route::get('/admin', function () {
-    return view('admin');
+    return view('admin.dashboard');
 });
-
-Route::get('/home', function () {
-    return view('admin');
-});
-
-
-Route::get('/comparation', function () {
-    return view('comparation');
-});
-
-Route::get('/comparationrams', function () {
-    return view('comparationrams');
-});
-Route::get('/comparationdiscos', function () {
-    return view('comparationdiscos');
-});
-
-Route::get('/comparationmouse', function () {
-    return view('comparationmouse');
-});
-
-Route::get('/comparationtarjetas', function () {
-    return view('comparationtarjetas');
-});
-
-
 Route::resource('categoria', 'categoriaController');
 Route::resource('cpu', 'cpuController');
 
+Route::resource('rams', 'RamsController');
+Route::resource('discos', 'DiscosController');
+Route::resource('gpus', 'GpusController');
+Route::resource('cases', 'CasesController');
+Route::resource('mouse', 'MouseController');

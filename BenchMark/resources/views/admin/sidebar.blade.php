@@ -11,6 +11,16 @@
                     <br>
                     <a href="/cpu">Administrar Cpus</a>
                     <br>
+                    <a href="/rams">Administrar Rams</a>
+                    <br>
+                    <a href="/discos">Administrar Discos</a>
+                    <br>
+                    <a href="/gpus">Administrar Gpus</a>
+                    <br>
+                    <a href="/mouse">Administrar Mouses</a>
+                    <br>
+                    <a href="/cases">Administrar Cases</a>
+                    <br>
                 </li>
             </ul>
         </div>
