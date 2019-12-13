@@ -31,10 +31,13 @@
  <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
   <div class="container">
    <div class="navbar-translate">
+    
     <a class="navbar-brand" href="{{url('/')}}">
     Mi tiendita </a>
+    
     <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
      <span class="sr-only">Toggle navigation</span>
+     
      <span class="navbar-toggler-icon"></span>
      <span class="navbar-toggler-icon"></span>
      <span class="navbar-toggler-icon"></span>
@@ -45,13 +48,15 @@
  <div class="collapse navbar-collapse">
   <ul class="navbar-nav ml-auto">
    @if (Route::has('login'))
+   
    @auth
    <li class="nav-item">
     <a class="nav-link" href="{{ url('/home') }}">
      <i class="material-icons">home</i> Inicio
    </a>
  </li>
- @else
+   
+ @else  
  <li class="nav-item">
   <a class="nav-link" href="{{ route('login') }}" onclick="scrollToDownload()">
    <i class="material-icons">person</i> Accesa
@@ -72,7 +77,8 @@
 </div>
 </div>
 </nav>
-<div class="page-header header-filter" data-parallax="true" style="background-image: url('{{asset('img/profile_city.jpg')}}')">
+
+ <div class="page-header header-filter" data-parallax="true" style="background-image: url('{{asset('img/profile_city.jpg')}}')">
 </div>
 <div class="main main-raised">
   <div class="profile-content">
