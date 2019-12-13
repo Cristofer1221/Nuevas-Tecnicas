@@ -1,29 +1,5 @@
 
 
-  render() {
-    return (
-      <div className="container">
-        <h1>Componentes</h1>
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            <input type="text" name="componente1" className="form-control" id="" onChange={this.handleChange} placeholder="Nombre" />
-		
-          </label>
-		  <label>
-      <input type="text" name="componente2" className="form-control" id="" onChange={this.handleChange} placeholder="Correo" />
-
-          </label>
-		  <label>
-            <input type="text" name="componente3" className="form-control" id="" onChange={this.handleChange} placeholder="Telefono" />
-
-          </label>
-          <input type="submit" value="componente4" className="btn btn-info" />
-        </form>
-      </div>
-    );
-  }
-}
-
 export default PostForm
 
 APP_NAME=Laravel
