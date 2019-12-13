@@ -34,8 +34,10 @@
      <span class="navbar-toggler-icon"></span>
      <span class="navbar-toggler-icon"></span>
      <span class="navbar-toggler-icon"></span>
+     
    </button>
  </div>
+   
  <div class="collapse navbar-collapse">
   <ul class="navbar-nav ml-auto">
    @if (Route::has('login'))
