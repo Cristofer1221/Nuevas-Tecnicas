@@ -6,7 +6,7 @@ class PostForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {value: ''};
-
+	///se realiza la coneccion 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
@@ -14,10 +14,10 @@ class PostForm extends React.Component {
   handleChange(event) {
     this.setState({value: event.target.value});
   }
-
+// se declaran las variables importantes 
   handleSubmit(event) {
     event.preventDefault();
-    let contacto = $("#contacto").val()
+    let contacto = $("#").val()
      axios.post('http://localhost:8000/contactos', {
        contacto: contacto,
      })
