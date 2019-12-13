@@ -22,19 +22,26 @@
                     @endif
                 </div>
             </div>
+            
             <div class="row">
+                
                 <div class="col-xs-12 form-group">
                     {!! Form::label('dias_registrados', 'Dias de Premium*', ['class' => 'control-label']) !!}
                     {!! Form::number('dias_registrados', old('dias_registrados'), ['class' => 'form-control', 'placeholder' => '']) !!}
                     <p class="help-block"></p>
+                    
                     @if($errors->has('dias_registrados'))
                         <p class="help-block">
                             {{ $errors->first('dias_registrados') }}
+                            
                         </p>
                     @endif
                 </div>
             </div>
          
+            
+            
+            
         </div>
     </div>
 
