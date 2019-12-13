@@ -1,42 +1,57 @@
-'mysql' => array(
-    'driver'    => 'mysql',
-    'host'      => 'localhost',
-    'database'  => 'database', <------ Default name for database
-    'username'  => 'root',
-    'password'  => '',
-    'charset'   => 'utf8',
-    'collation' => 'utf8_unicode_ci',
-    'prefix'    => '',
-),
-'mysql' => array(
-    'driver'    => 'mysql',
-    'host'      => 'localhost',
-    'database'  => 'database', <------ Default name for database
-    'username'  => 'root',
-    'password'  => '',
-    'charset'   => 'utf8',
-    'collation' => 'utf8_unicode_ci',
-    'prefix'    => '',
-),
+import React from 'react'
+import axios from 'axios';
+import $ from 'jquery'
 
-APP_ENV=local
-APP_DEBUG=true
-APP_KEY=YOUR_API_KEY
+class PostForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {value: ''};
 
-DB_HOST=YOUR_HOST
-DB_DATABASE=PROYECTO
-DB_USERNAME=ricky
-DB_PASSWORD=
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
 
-CACHE_DRIVER=file
-SESSION_DRIVER=file
-QUEUE_DRIVER=sync
+  handleChange(event) {
+    this.setState({value: event.target.value});
+  }
 
-DB::connection('system')->table('tenants')->all();
+  handleSubmit(event) {
+    event.preventDefault();
+    let contacto = $("#contacto").val()
+     axios.post('http://localhost:8000/contactos', {
+       contacto: contacto,
+     })
+     .then(function (response) {
+       console.log(response);
+     })
+     .catch(function (error) {
+       console.log(error);
+     });
+  }
 
-config(['database.connections.tenant.database' => 'tenant1']);
+  render() {
+    return (
+      <div className="container">
+        <h1>Registrar Nota</h1>
+        <form onSubmit={this.handleSubmit}>
+          <label>
+            <input type="text" name="" className="form-control" id="" onChange={this.handleChange} placeholder="Nombre" />
+		
+          </label>
+		  <label>
+      <input type="text" name="" className="form-control" id="" onChange={this.handleChange} placeholder="Correo" />
 
-DB::purge('tenant');
+          </label>
+		  <label>
+            <input type="text" name="" className="form-control" id="" onChange={this.handleChange} placeholder="Telefono" />
 
-DB::reconnect('tenant');
+          </label>
+          <input type="submit" value="" className="btn btn-info" />
+        </form>
+      </div>
+    );
+  }
+}
+
+export default PostForm
 
